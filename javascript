@@ -1,13 +1,19 @@
 * como fazer um click em javascript*
-// receber a informação (nome) do usuario
-var nome;
-let name = prompt("qual e o seu nome"); 
-// processar a informação (nome) : maiuscula
-// como bota o texto todo em letras maiuculas condição logo a baixo.
-// r:nome. toUpperCasa();
-var nomeProcesado; = nome.toUpperCase();
+// toda vez que clika no p chama função
+function yetrtretr(){
+    // receber a informação (nome) do usuario
+    //var name;
+    let name = prompt("qual e o seu nome"); 
+    // processar a informação (nome) : maiuscula
+    // como bota o texto todo em letras maiuculas condição logo a baixo.
+    // r:nome. toUpperCasa();
+    var nameProcesado = name.toUpperCase();
+    
+    // informar na tela a informação processada
+    var p = document.querySelector('p');
+    p.innerText = "Jogador 1: " + nameProcesado;
+}
 
-// informar na tela a informação processada
-document.querySelector('p');
-p.innerText = "ola mundo" + nomeProcesado;
-  </script>
+addEventListener("click", yetrtretr)
+
+
