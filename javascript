@@ -1,4 +1,4 @@
-
+* como fazer um click em javascript*
 // receber a informação (nome) do usuario
 var nome;
 let name = prompt("qual e o seu nome"); 
